@@ -1,5 +1,7 @@
 <h1 align="center">WEBSITE DPM FILKOM UB</h1>
 
+> Proyek ini dibuat dengan menggunakan [Laravel](https://laravel.com/docs/12.x) dan [Vue 3](https://vuejs.org/guide/introduction.html)
+
 ## 🔧 Alat Pengembangan Sistem
 
 ### 🖼️ Frontend
@@ -16,8 +18,6 @@
 ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
 
 ## 👨‍💻 Kontribusi
-
-
 
 Anda dapat berkontribusi pada proyek ini dengan cara *clone* atau *fork* repositori ini. Setelah itu, lakukan beberapa hal berikut:
 

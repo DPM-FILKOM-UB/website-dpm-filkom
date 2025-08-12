@@ -18,4 +18,18 @@ export default defineConfig({
             vue: 'vue/dist/vue.esm-bundler.js',
         },
     },
+
+    server: {
+        host: 'localhost',
+        port: 5173,
+        proxy: {
+            '/images': {
+                target: 'http://localhost:8000',
+                changeOrigin: true,
+            },
+        },
+        fs: {
+            strict: false,
+        }
+    }
 });

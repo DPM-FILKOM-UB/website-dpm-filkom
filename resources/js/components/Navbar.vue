@@ -7,7 +7,7 @@ import logo_dpmfilkomub from '/public/images/logo_dpmfilkomub.png';
     <div class="flex mx-auto max-w-[80%] px-4 sm:px-6 lg:px-8 justify-between items-center">
         <div class="flex items-center gap-10">
             <img :src="logo_dpmfilkomub" alt="Logo DPM FILKOM UB" class="w-[45px] h-[45px]">
-            <div class="flex flex-col gap-4 sm:flex-row gap-4 sm:gap-10 text-lg font-semibold">
+            <div class="flex flex-col sm:flex-row gap-4 sm:gap-10 text-lg font-semibold">
                 <a href="/" class="hover:text-[#B48B52] transition">Beranda</a>
                 <a href="#" class="hover:text-[#B48B52] transition">Struktur Organisasi</a>
                 <a href="#" class="hover:text-[#B48B52] transition">Informasi</a>

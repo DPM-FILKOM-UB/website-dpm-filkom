@@ -9,14 +9,14 @@ import fotoParlemen from '/public/images/home_parlemen.png';
     <Navbar/>
     <div class="about">
         <!-- Header -->
-        <header class="relative py-20 px-4 sm:px-6 lg:px-8 flex flex-col justify-center items-center
+        <header class="relative py-20 px-4 sm:px-6 lg:px-8 flex justify-center items-center text-center
                 bg-[url('/images/home_parlemen.png')] bg-center bg-cover bg-no-repeat h-200">
             <div class="absolute inset-0 bg-neutral-950/50"></div>
             <div class="relative z-10 text-center text-white">
-                <span>Tentang</span>
-                <h1>DPM FILKOM UNIVERSITAS BRAWIJAYA</h1>
-                <h2>Tak Kenal Maka Kenalan Yuk!</h2>
-                <span>Parlemen Katha Mantrana 2025</span>
+                <p class="bg-[#B48B52] mx-auto w-[150px] px-2 py-2 rounded-4xl font-medium text-xl mb-2">Tentang</p>
+                <h1 class="text-6xl font-bold mb-2">DPM FILKOM UNIVERSITAS BRAWIJAYA</h1>
+                <p class="text-xl mb-5">Parlemen Katha Mantrana 2025</p>
+                <h2 class="text-2xl font-semibold">Tak Kenal Maka Kenalan Yuk!</h2>
             </div>
         </header>
         <!-- Visi -->

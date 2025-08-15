@@ -8,7 +8,7 @@ import logo_linkedin from '/public/images/logo_linkedin.png'
 </script>
 <template>
     <!-- TODO: BELUM RESPONSIF -->
-    <div class="footer bg-[url('/images/bg_footer.png')] pt-10 pb-10 h-[100vh] w-auto bg-no-repeat bg-cover bg-top content-end justify-center">
+    <div class="footer bg-[url('/images/bg_footer.png')] pt-10 pb-10 h-[100vh] max-h-155 w-auto bg-no-repeat bg-cover bg-top content-end justify-center">
          <!-- Social media icons -->
         <div class="flex flex-col font-regular text-xl text-center">
             <div class="logo-links flex flex-row gap-6 justify-center items-center mb-5">

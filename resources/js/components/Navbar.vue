@@ -33,7 +33,7 @@ onMounted(() => {
       scrolled ? 'bg-white text-[#5B352C]' : 'bg-transparent text-white'
     ]"
   >
-    <div class="flex justify-between items-center mx-6 xl:mx-20">
+    <div class="flex justify-between items-center mx-8 xl:mx-20">
       <div class="flex items-center gap-6">
         <img :src="logo_dpmfilkomub" alt="Logo" class="w-[46px] h-[44px]" />
         <div class="hidden lg:flex gap-8 text-base lg:text-lg font-medium">

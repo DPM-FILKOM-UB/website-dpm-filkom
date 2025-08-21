@@ -5,7 +5,7 @@ import Footer from '../components/Footer.vue';
 </script>
 <template>
     <Head title="DPM FILKOM UB - Tentang"/>
-    <Navbar class=""/>
+    <Navbar/>
     <div class="about">
         <!-- Header -->
         <header class="relative py-20 px-4 sm:px-6 md:px-16 lg:px-20 flex justify-center items-center text-center

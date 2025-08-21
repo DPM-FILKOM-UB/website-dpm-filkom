@@ -19,20 +19,20 @@ import logoMedkom from '/public/images/logo_medkom.png';
 
 <template>
     <Head title="DPM FILKOM UB - Beranda"/>
-    <Navbar/>
-    <div class="home">
+    <Navbar :default-white="true"/>
+    <div class="home mt-40">
         <!-- Header -->
-        <header class="header my-20 mx-auto max-w-[80%] px-4 sm:px-6 lg:px-8 flex flex-row justify-center items-center gap-10">
+        <header class="header my-20 mx-20 px-4 sm:px-6 md:px-16 lg:px-20 flex flex-row justify-center items-center gap-10">
             <div class="text-container max-w-1/2 gap-4">
-                <H2 class="text-[#B48B52] text-2xl font-semibold mb-2">DPM FILKOM UB - Katha Mantrana</H2>
-                <H1 class="text-[#5B352C] text-5xl font-bold mb-10">Bangkitkan Asa,<br>Gelorakan Suara!</H1>
-                <p class="text-lg text-neutral-700 font-medium max-w-fit container text-justify">Lembaga legislatif tingkat fakultas yang berperan sebagai penjembatan aspirasi mahasiswa,  bertanggung jawab atas pembentukan dan pengesahan hukum di tingkat mahasiswa, dan pengawas kinerja Badan Ekskutif Mahasiswa FILKOM UB.</p>
+                <H2 class="text-[#B48B52] text-2xl mb-2">DPM FILKOM UB - Katha Mantrana</H2>
+                <H1 class="text-[#5B352C] text-5xl font-semibold mb-10">Bangkitkan Asa,<br>Gelorakan Suara!</H1>
+                <p class="text-lg text-neutral-700 max-w-fit container text-justify">Lembaga legislatif tingkat fakultas yang berperan sebagai penjembatan aspirasi mahasiswa,  bertanggung jawab atas pembentukan dan pengesahan hukum di tingkat mahasiswa, dan pengawas kinerja Badan Ekskutif Mahasiswa FILKOM UB.</p>
             </div>
             <img :src="home_header" alt="Gedung GKM" class="w-1/2">
         </header>
         <!-- Program Kerja -->
-        <section class="proker my-20 mx-auto max-w-[80%] px-4 sm:px-6 lg:px-8">
-            <h2 class="mb-15 text-4xl text-[#5B352C] font-bold text-center">Program Kerja Unggulan</h2>
+        <section class="proker my-20 mx-20 px-4 sm:px-6 md:px-16 lg:px-20">
+            <h2 class="mb-15 text-4xl text-[#5B352C] font-semibold text-center">Program Kerja Unggulan</h2>
             <div class="proker-carousel flex flex-row gap-4 items-center justify-around">
                 <div class="proker-card text-neutral-900">
                     <img :src="prokerPA" alt="Program Kerja Portal Aspirasi">
@@ -44,7 +44,7 @@ import logoMedkom from '/public/images/logo_medkom.png';
                 </div>
                 <div class="proker-card text-neutral-900">
                     <img :src="prokerLA" alt="Program Kerja Legislative Academy">
-                    <h5 class="text-center text-xl font-normal mt-4">legislative Academy</h5>
+                    <h5 class="text-center text-xl font-normal mt-4">Legislative Academy</h5>
                 </div>
             </div>
         </section>
@@ -61,7 +61,7 @@ import logoMedkom from '/public/images/logo_medkom.png';
             </div>
         </section>
         <!-- Ucapan Selamat Datang -->
-        <section class="my-20 mx-auto max-w-[80%] px-4 sm:px-6 lg:px-8 flex flex-row gap-15 justify-center items-center">
+        <section class="my-20 mx-20 px-4 sm:px-6 md:px-16 lg:px-20 flex flex-row gap-15 justify-center items-center">
             <!-- Gambar dan Identitas -->
             <img :src="welcomePotrait" class="max-w-100 h-auto" alt="Koordinator DPM FILKOM 2025 Jildan Adam Zein">
             <!-- Teks Selamat datang -->
@@ -70,18 +70,18 @@ import logoMedkom from '/public/images/logo_medkom.png';
                 <h3 class="text-[#5B352C] text-4xl font-semibold mb-5">Laman Resmi DPM FILKOM UB</h3>
                 <p class="text-neutral-700 text-lg mb-10">Sebagai representasi suara mahasiswa, kami berkomitmen untuk menjadi jembatan aspirasi, pengawal kebijakan, dan mitra strategis dalam memajukan FILKOM. Mari bersama membangun lingkungan akademik yang inspiratif dan berprestasi.</p>
                 <!-- Ini masih belum nimpa gambar (mungkin bisa pake absolute atau semacamnya) -->
-                <div class="flex flex-row gap-8 justify-center items-center">
-                    <div class="card bg-white border-[#5B352C] border-r-4 border-b-4 p-2 rounded-[10px] w-100">
+                <div class="flex gap-8 items-center mt-16">
+                    <div class="absolute -left-52 card bg-white border-[#5B352C] border-r-4 border-b-4 py-2.5 px-5 rounded-[10px] w-68">
                         <h4 class="text-[#5B352C] text-xl">Jildan Adam Zein</h4>
                         <h5 class="text-neutral-700">Koordinator DPM FILKOM 2025</h5>
                     </div>
-                    <hr class="w-full border-[#B48B52] border-2 rounded">
+                    <hr class="w-7/8 border-[#B48B52] border-1 rounded ml-auto">
                 </div>
             </div>
         </section>
         <!-- Foto Bareng Parlemen dan Logonya -->
-        <section class="my-20 mx-auto max-w-[80%] px-4 sm:px-6 lg:px-8">
-            <img :src="fotoParlemen" class="w-full" alt="Foto Parlemen Katha Mantrana">
+        <section class="my-20 mx-20 px-4 sm:px-6 md:px-16 lg:px-20 flex flex-col gap-10">
+            <img :src="fotoParlemen" class="w-full shadow-[0px_10px_20px_0px_rgba(0,0,0,0.25)] rounded-xl" alt="Foto Parlemen Katha Mantrana">
             <div class="flex flex-row items-center justify-center gap-10 mt-6">
                 <a href="#"><img class="w-20 h-auto transition-transform duration-100 hover:animate-spin" :src="logoKoor" alt="logo Koordinator"></a>
                 <a href="#"><img class="w-20 h-auto transition-transform duration-100 hover:animate-spin" :src="logoSekjen" alt="logo Sekertaris Jendral"></a>
@@ -92,8 +92,8 @@ import logoMedkom from '/public/images/logo_medkom.png';
             </div>
         </section>
         <!-- Kegiatan, sumpah ini brarti isinya data kan ya? -->
-        <section class="my-20 mx-auto max-w-[80%] px-4 sm:px-6 lg:px-8">
-            <h2 class="mb-15 text-4xl text-[#5B352C] font-bold text-center">Kegiatan DPM FILKOM UB</h2>
+        <section class="my-20 mx-20 px-4 sm:px-6 md:px-16 lg:px-20">
+            <h2 class="mb-15 text-4xl text-[#5B352C] font-semibold text-center">Kegiatan DPM FILKOM UB</h2>
             <div class="flex flex-row gap-4 items-center justify-around mb-10">
                 <div class=" text-neutral-900">
                     <img :src="prokerPA" alt="Program Kerja Portal Aspirasi">

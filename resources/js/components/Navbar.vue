@@ -9,14 +9,15 @@ import logo_dpmfilkomub from '/public/images/logo_dpmfilkomub.png';
             <img :src="logo_dpmfilkomub" alt="Logo DPM FILKOM UB" class="w-[45px] h-[45px]">
             <div class="flex flex-col sm:flex-row gap-4 sm:gap-10 text-lg font-semibold">
                 <a href="/" class="hover:text-[#B48B52] transition">Beranda</a>
-                <a href="#" class="hover:text-[#B48B52] transition">Struktur Organisasi</a>
+                <a href="/struktur-organisasi" class="hover:text-[#B48B52] transition">Struktur Organisasi</a>
                 <a href="#" class="hover:text-[#B48B52] transition">Informasi</a>
                 <a href="/tentang" class="hover:text-[#B48B52] transition">Tentang</a>
             </div>
         </div>
         <div class="flex flex-row gap-4 text-lg font-semibold items-center">
-            <a href="https://s.ub.ac.id/portalaspirasi" class="bg-[#B48B52] text-white p-2 pr-6 pl-6 rounded-sm outline-2 outline-[#B48B52] hover:text-neutral-800 transition">Portal Aspirasi</a>
-            <a href="#" class="text-[#B48B52] p-2 rounded-sm outline-2 outline-[#B48B52] hover:text-cyan-700 transition">Jaringan dan Informasi Hukum</a>
+            <a href="https://s.ub.ac.id/portalaspirasi" class="bg-[#B48B52] text-white py-2 px-6 rounded-[10px] transition-transform ease-in-out duration-100 hover:scale-110 hover:bg-[#a17d4b]">Portal Aspirasi</a>
+            <!-- <a href="#" class="text-[#B48B52] py-2 px-6 rounded-[8.5px] outline-2 outline-[#B48B52] hover:text-neutral-500 transition">Jaringan dan Informasi Hukum</a> -->
+            <a href="#" class="py-2 px-6 text-[#B48B52] rounded-[10px] hover:bg-[#B48B52] hover:text-white transition">Jaringan dan Informasi Hukum</a>
         </div>
     </div>
   </nav>

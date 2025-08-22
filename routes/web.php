@@ -11,3 +11,7 @@ Route::get('/', function () {
 Route::get('/tentang', function(){
     return Inertia::render('About');
 });
+
+Route::get('/struktur-organisasi', function(){
+    return Inertia::render('Structure');
+});

@@ -4,7 +4,7 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/vue/24/outline";
 import logo_dpmfilkomub from "/public/images/logo_dpmfilkomub.png";
 
 const props = defineProps({
-  defaultWhite: { type: Boolean, default: false },
+  defaultWhite: { type: Boolean, default: true },
 });
 
 const mobileMenuOpen = ref(false);
@@ -35,8 +35,8 @@ onMounted(() => {
   >
     <div class="flex justify-between items-center mx-8 xl:mx-20">
       <div class="flex items-center gap-6">
-        <img :src="logo_dpmfilkomub" alt="Logo" class="w-[46px] h-[44px]" />
-        <div class="hidden lg:flex gap-8 text-base lg:text-lg font-medium">
+        <img :src="logo_dpmfilkomub" alt="Logo" class="w-[46px] h-[44px]" :class="scrolled ? '' : 'invert brightness-0'" />
+        <div class="hidden lg:flex gap-8 text-sm lg:text-base font-medium">
           <a href="/" class="transition" :class="scrolled ? 'hover:text-[#B48B52]' : 'hover:text-gray-300'">Beranda</a>
           <a href="#" class="transition" :class="scrolled ? 'hover:text-[#B48B52]' : 'hover:text-gray-300'">Struktur Organisasi</a>
           <a href="#" class="transition" :class="scrolled ? 'hover:text-[#B48B52]' : 'hover:text-gray-300'">Informasi</a>
@@ -44,7 +44,7 @@ onMounted(() => {
         </div>
       </div>
 
-      <div class="hidden lg:flex gap-4 text-base lg:text-lg font-medium items-center">
+      <div class="hidden lg:flex gap-4 text-sm lg:text-base font-medium items-center">
         <a
           href="https://s.ub.ac.id/portalaspirasi"
           class="bg-[#B48B52] text-white px-5 py-2.5 rounded-sm hover:text-neutral-800 transition"
@@ -69,7 +69,7 @@ onMounted(() => {
     <!-- Mobile Menu -->
     <div
       v-if="mobileMenuOpen"
-      class="lg:hidden mt-4 flex flex-col gap-4 text-lg font-medium bg-white text-[#5B352C] p-4 rounded-md shadow-lg"
+      class="lg:hidden mt-4 flex flex-col gap-4 text-sm font-medium bg-white text-[#5B352C] p-4 rounded-md shadow-lg"
     >
       <a href="/" @click="mobileMenuOpen=false" class="hover:text-[#B48B52]">Beranda</a>
       <a href="#" @click="mobileMenuOpen=false" class="hover:text-[#B48B52]">Struktur Organisasi</a>

@@ -19,7 +19,7 @@ import logoMedkom from '/public/images/logo_medkom.png';
 
 <template>
     <Head title="DPM FILKOM UB - Beranda"/>
-    <Navbar :default-white="true"/>
+    <Navbar/>
     <div class="home mt-40">
         <!-- Header -->
         <header class="header my-16 md:my-20 mx-8 xl:mx-20 px-4 sm:px-6 md:px-16 lg:px-20 flex flex-col lg:flex-row justify-center items-center gap-10">
@@ -88,8 +88,7 @@ import logoMedkom from '/public/images/logo_medkom.png';
             <div class="selamat-datang flex flex-col relative">
                 <h4 class="text-[#B48B52] text-lg font-medium ">Selamat Datang!</h4>
                 <h3 class="text-[#5B352C] text-3xl md:text-4xl font-semibold mb-5">Laman Resmi DPM FILKOM UB</h3>
-                <p class="text-neutral-700 md:text-lg mb-10">Sebagai representasi suara mahasiswa, kami berkomitmen untuk menjadi jembatan aspirasi, pengawal kebijakan, dan mitra strategis dalam memajukan FILKOM. Mari bersama membangun lingkungan akademik yang inspiratif dan berprestasi.</p>
-                <!-- Ini masih belum nimpa gambar (mungkin bisa pake absolute atau semacamnya) -->
+                <p class="text-neutral-700 md:text-lg md:mb-10">Sebagai representasi suara mahasiswa, kami berkomitmen untuk menjadi jembatan aspirasi, pengawal kebijakan, dan mitra strategis dalam memajukan FILKOM. Mari bersama membangun lingkungan akademik yang inspiratif dan berprestasi.</p>
                 <div class="hidden lg:flex gap-8 items-center mt-16">
                     <div class="absolute -left-52 card bg-white border-[#5B352C] border-r-4 border-b-4 py-2.5 px-5 rounded-[10px] w-68">
                         <h4 class="text-[#5B352C] text-xl">Jildan Adam Zein</h4>

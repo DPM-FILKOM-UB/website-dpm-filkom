@@ -1,5 +1,9 @@
-@import 'tailwindcss';
+/* === Tailwind Directives === */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
+/* === Tambahan konfigurasi lama === */
 @source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
 @source '../../storage/framework/views/*.php';
 @source '../**/*.blade.php';
@@ -13,7 +17,6 @@
     --dark-brown: #5B352C;
     --mocha: #7C5024;
     --light-brown: #B48B52;
-
 }
 
 body {

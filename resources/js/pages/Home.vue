@@ -1,7 +1,7 @@
 <script setup>
 import { Head } from '@inertiajs/vue3'
-import Navbar from '../components/Navbar.vue';
-import Footer from '../components/Footer.vue';
+import Navbar from '../Components/Navbar.vue';
+import Footer from '../Components/Footer.vue';
 import home_header from '/public/images/home_header.png';
 import logoDPM from '/public/images/logo_dpmfilkomub.png';
 import prokerPA from '/public/images/home_proker_pa.png';

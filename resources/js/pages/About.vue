@@ -1,7 +1,7 @@
 <script setup>
 import { Head } from '@inertiajs/vue3'
-import Navbar from '../components/Navbar.vue';
-import Footer from '../components/Footer.vue';
+import Navbar from '../Components/Navbar.vue';
+import Footer from '../Components/Footer.vue';
 </script>
 <template>
     <Head title="DPM FILKOM UB - Tentang"/>

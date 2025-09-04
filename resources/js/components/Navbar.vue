@@ -38,8 +38,8 @@ onMounted(() => {
         <img :src="logo_dpmfilkomub" alt="Logo" class="w-[46px] h-[44px]" :class="scrolled ? '' : 'invert brightness-0'" />
         <div class="hidden lg:flex gap-8 text-sm lg:text-base font-medium">
           <a href="/" class="transition" :class="scrolled ? 'hover:text-[#B48B52]' : 'hover:text-gray-300'">Beranda</a>
-          <a href="#" class="transition" :class="scrolled ? 'hover:text-[#B48B52]' : 'hover:text-gray-300'">Struktur Organisasi</a>
-          <a href="#" class="transition" :class="scrolled ? 'hover:text-[#B48B52]' : 'hover:text-gray-300'">Informasi</a>
+          <a href="/struktur-organisasi" class="transition" :class="scrolled ? 'hover:text-[#B48B52]' : 'hover:text-gray-300'">Struktur Organisasi</a>
+          <a href="/informasi" class="transition" :class="scrolled ? 'hover:text-[#B48B52]' : 'hover:text-gray-300'">Informasi</a>
           <a href="/tentang" class="transition" :class="scrolled ? 'hover:text-[#B48B52]' : 'hover:text-gray-300'">Tentang</a>
         </div>
       </div>
@@ -47,14 +47,14 @@ onMounted(() => {
       <div class="hidden lg:flex gap-4 text-sm lg:text-base font-medium items-center">
         <a
           href="https://s.ub.ac.id/portalaspirasi"
-          class="bg-[#B48B52] text-white px-5 py-2.5 rounded-sm hover:text-neutral-800 transition"
+          class="bg-[#B48B52] text-white px-5 py-2.5 rounded-sm hover:text-neutral-800 transition hover:scale-110 hover:shadow-lg"
         >
           Portal Aspirasi
         </a>
         <a
           href="#"
           :class="scrolled ? 'text-[#B48B52] border-[#B48B52]' : 'text-white border-white hover:text-gray-300'"
-          class="px-5 py-2.5 rounded-sm transition border-2"
+          class="px-5 py-2.5 rounded-sm transition border-2 hover:scale-110 hover:shadow-lg"
         >
           Jaringan dan Informasi Hukum
         </a>
@@ -72,8 +72,8 @@ onMounted(() => {
       class="lg:hidden mt-4 flex flex-col gap-4 text-sm font-medium bg-white text-[#5B352C] p-4 rounded-md shadow-lg"
     >
       <a href="/" @click="mobileMenuOpen=false" class="hover:text-[#B48B52]">Beranda</a>
-      <a href="#" @click="mobileMenuOpen=false" class="hover:text-[#B48B52]">Struktur Organisasi</a>
-      <a href="#" @click="mobileMenuOpen=false" class="hover:text-[#B48B52]">Informasi</a>
+      <a href="/struktur-organisasi" @click="mobileMenuOpen=false" class="hover:text-[#B48B52]">Struktur Organisasi</a>
+      <a href="/informasi" @click="mobileMenuOpen=false" class="hover:text-[#B48B52]">Informasi</a>
       <a href="/tentang" @click="mobileMenuOpen=false" class="hover:text-[#B48B52]">Tentang</a>
       <a
         href="https://s.ub.ac.id/portalaspirasi"

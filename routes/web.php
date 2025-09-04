@@ -19,3 +19,7 @@ Route::get('/struktur-organisasi', function(){
 Route::get('/informasi', function(){
     return Inertia::render('Information');
 });
+
+Route::get('/detail-informasi', function(){
+    return Inertia::render('Information');
+});

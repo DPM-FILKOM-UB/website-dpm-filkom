@@ -102,12 +102,12 @@ import logoMedkom from '/public/images/logo_medkom.png';
         <section class="my-16 md:my-20 mx-8 xl:mx-20 px-4 sm:px-6 md:px-16 lg:px-20 flex flex-col gap-10">
             <img :src="fotoParlemen" class="w-full shadow-[0px_10px_20px_0px_rgba(0,0,0,0.25)] rounded-xl" alt="Foto Parlemen Katha Mantrana">
             <div class="flex flex-row items-center justify-center gap-4 md:gap-10 mt-6">
-                <a href="#"><img class="w-20 h-auto transition-transform duration-100 hover:animate-spin" :src="logoKoor" alt="logo Koordinator"></a>
-                <a href="#"><img class="w-20 h-auto transition-transform duration-100 hover:animate-spin" :src="logoSekjen" alt="logo Sekertaris Jendral"></a>
-                <a href="#"><img class="w-20 h-auto transition-transform duration-100 hover:animate-spin" :src="logoKomisi" alt="logo Komisi"></a>
-                <a href="#"><img class="w-20 h-auto transition-transform duration-100 hover:animate-spin" :src="logoBaas" alt="logo Badan Aspirasi"></a>
-                <a href="#"><img class="w-20 h-auto transition-transform duration-100 hover:animate-spin" :src="logoBaleg" alt="logo Badan Legislasi"></a>
-                <a href="#"><img class="w-20 h-auto transition-transform duration-100 hover:animate-spin" :src="logoMedkom" alt="logo Biro Media dan Komunikasi"></a>
+                <a href="#"><img class="w-20 h-auto transition-transform ease-in-out duration-100 hover:-translate-y-3" :src="logoKoor" alt="logo Koordinator"></a>
+                <a href="#"><img class="w-20 h-auto transition-transform ease-in-out duration-100 hover:-translate-y-3" :src="logoSekjen" alt="logo Sekertaris Jendral"></a>
+                <a href="#"><img class="w-20 h-auto transition-transform ease-in-out duration-100 hover:-translate-y-3" :src="logoKomisi" alt="logo Komisi"></a>
+                <a href="#"><img class="w-20 h-auto transition-transform ease-in-out duration-100 hover:-translate-y-3" :src="logoBaas" alt="logo Badan Aspirasi"></a>
+                <a href="#"><img class="w-20 h-auto transition-transform ease-in-out duration-100 hover:-translate-y-3" :src="logoBaleg" alt="logo Badan Legislasi"></a>
+                <a href="#"><img class="w-20 h-auto transition-transform ease-in-out duration-100 hover:-translate-y-3" :src="logoMedkom" alt="logo Biro Media dan Komunikasi"></a>
             </div>
         </section>
         <!-- Kegiatan, sumpah ini brarti isinya data kan ya? -->

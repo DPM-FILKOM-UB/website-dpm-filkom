@@ -24,8 +24,8 @@ const showModalSekjen = ref(false);
     <Navbar :default-white="false"/>
     <div class="structure">
         <!-- Header -->
-        <header class="relative bg-[url('/images/home_parlemen.png')] bg-center bg-cover py-100 px-4 sm:px-6 md:px-16 lg:px-20 text-center">
-            <div class="absolute inset-0 bg-bottom bg-gradient-to-b from-black/60 from-5% via-white/40 via-70% to-white flex items-center justify-center">
+        <header class="relative bg-[url('/images/structure_header.png')] bg-center bg-contain bg-no-repeat py-100 px-4 sm:px-6 md:px-16 lg:px-20 text-center">
+            <div class="absolute inset-0 bg-bottom bg-gradient-to-b from-black/70 from-5% via-white/40 via-70% to-white flex items-center justify-center">
                 <h1 class="text-6xl font-bold text-white text-shadow-md text-shadow-black">Struktur Organisasi</h1>
 
             </div>

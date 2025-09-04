@@ -16,10 +16,10 @@ Route::get('/struktur-organisasi', function(){
     return Inertia::render('Structure');
 });
 
-Route::get('/informasi', function(){
-    return Inertia::render('Information');
+Route::get('/kegiatan', function(){
+    return Inertia::render('Activity');
 });
 
-Route::get('/detail-informasi', function(){
-    return Inertia::render('Information');
+Route::get('/kegiatan-detail', function(){
+    return Inertia::render('ActivityDetail');
 });

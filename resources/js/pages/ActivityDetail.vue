@@ -4,10 +4,10 @@ import Navbar from '../components/Navbar.vue';
 import Footer from '../components/Footer.vue';
 </script>
 <template>
-    <Head title="Informasi"/>
+    <Head title="Detail"/>
     <Navbar/>
-    <div class="information">
-        <h1>Informasi dan Kegiatan</h1>
+    <div class="activity-detail">
+        <h1>Detail Kegiatan</h1>
     </div>
     <Footer/>
 </template>

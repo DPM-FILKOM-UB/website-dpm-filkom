@@ -39,7 +39,7 @@ onMounted(() => {
         <div class="hidden lg:flex gap-8 text-sm lg:text-base font-medium">
           <a href="/" class="transition" :class="scrolled ? 'hover:text-[#B48B52]' : 'hover:text-gray-300'">Beranda</a>
           <a href="/struktur-organisasi" class="transition" :class="scrolled ? 'hover:text-[#B48B52]' : 'hover:text-gray-300'">Struktur Organisasi</a>
-          <a href="/informasi" class="transition" :class="scrolled ? 'hover:text-[#B48B52]' : 'hover:text-gray-300'">Informasi</a>
+          <a href="/kegiatan" class="transition" :class="scrolled ? 'hover:text-[#B48B52]' : 'hover:text-gray-300'">Informasi</a>
           <a href="/tentang" class="transition" :class="scrolled ? 'hover:text-[#B48B52]' : 'hover:text-gray-300'">Tentang</a>
         </div>
       </div>
@@ -73,7 +73,7 @@ onMounted(() => {
     >
       <a href="/" @click="mobileMenuOpen=false" class="hover:text-[#B48B52]">Beranda</a>
       <a href="/struktur-organisasi" @click="mobileMenuOpen=false" class="hover:text-[#B48B52]">Struktur Organisasi</a>
-      <a href="/informasi" @click="mobileMenuOpen=false" class="hover:text-[#B48B52]">Informasi</a>
+      <a href="/kegiatan" @click="mobileMenuOpen=false" class="hover:text-[#B48B52]">Informasi</a>
       <a href="/tentang" @click="mobileMenuOpen=false" class="hover:text-[#B48B52]">Tentang</a>
       <a
         href="https://s.ub.ac.id/portalaspirasi"
